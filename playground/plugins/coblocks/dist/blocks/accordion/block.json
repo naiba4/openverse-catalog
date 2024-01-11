@@ -1,0 +1,20 @@
+{
+  "name": "coblocks/accordion",
+  "category": "common",
+  "attributes": {
+    "count": {
+      "type": "number",
+      "default": "1"
+    },
+    "polyfill": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "title": "Accordion",
+  "textdomain": "coblocks",
+  "editorScript": [
+    "coblocks-1"
+  ],
+  "description": "Organize content within collapsable accordion items."
+}

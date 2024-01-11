@@ -1,0 +1,1 @@
+!function(){"use strict";document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelectorAll(".wp-block-coblocks-service");for(let t=0;t<e.length;t++){const n=e[t],o=n.getElementsByTagName("figure").length;0!==n.innerText.length||o||n.remove()}}))}();

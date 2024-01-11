@@ -1,0 +1,24 @@
+{
+	"name": "coblocks/feature",
+	"category": "layout",
+	"attributes": {
+		"headingLevel": {
+			"type": "integer",
+			"default": 4
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"contentAlign": {
+			"type": "string"
+		}
+	},
+	"title": "Feature",
+	"textdomain": "coblocks",
+	"description": "A singular child column within a parent features block.",
+	"editorScript": ["coblocks-2"],
+	"parent": [ "coblocks/features" ]
+}
