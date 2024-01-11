@@ -1,0 +1,35 @@
+{
+	"attributes": {
+		"subject": {
+			"default": null,
+			"type": "string"
+		},
+		"successText": {
+			"default": "Your message was sent:",
+			"type": "string"
+		},
+		"to": {
+			"default": null,
+			"type": "string"
+		}
+	},
+	"category": "layout",
+	"name": "coblocks/form",
+	"title": "Form",
+	"textdomain": "coblocks",
+	"description": "Add a contact form to your page.",
+	"render": "index.php",
+	"editorScript": ["coblocks-3"],
+	"keywords": ["about", "contact", "email"],
+	"supports": {
+		"customClassName": false,
+		"html": false,
+		"labelColor": true,
+		"reusable": false
+	},
+	"example": {
+		"attributes": {
+			"subject": "Subject example"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "coblocks/gist",
+	"category": "embed",
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"file": {
+			"type": "string"
+		},
+		"meta": {
+			"type": "boolean",
+			"default": true
+		},
+		"caption": {
+			"type": "string"
+		}
+	},
+	"title": "Gist",
+	"textdomain": "coblocks",
+	"editorScript": ["coblocks-9"],
+	"viewScript": ["coblocks-gist-script"],
+	"description": "Embed a GitHub Gist."
+}
