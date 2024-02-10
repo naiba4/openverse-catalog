@@ -1,4 +1,4 @@
-FROM postgres:13.6
+FROM postgres:13.10
 
 ARG PGCLI_VERSION=3.5.0
 
