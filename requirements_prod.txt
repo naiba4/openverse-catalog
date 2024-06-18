@@ -2,10 +2,11 @@
 
 # Note: Unpinned packages have their versions determined by the Airflow constraints file
 
-apache-airflow[amazon,postgres,http]==2.5.2
+apache-airflow==2.9.2
 lxml
 psycopg2-binary
 requests-file==1.5.1
 requests-oauthlib
 retry==0.9.2
 tldextract==3.4.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
