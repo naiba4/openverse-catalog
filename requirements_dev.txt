@@ -10,3 +10,4 @@ pytest-raises==0.11
 pytest-socket==0.6.0
 pytest-sugar==0.9.6
 pytest-xdist
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
